@@ -5,9 +5,7 @@ The Calorie Counter App allows a user to recieve a personalised caloric maintena
 ## Getting Started
 ----
 
-Firstly, the project has way too many files in order to upload onto GitHub therefore a document has been provided with a download link.
-
-Unzip the downloaded file; note there are two seperate folders:
+Download the folders in the repo, there are two available:
 
 * A folder containing the server (Eclipse/IntelliJ)
 * Another containing the app (Android Studio)
