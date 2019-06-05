@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f4f4f4"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722">
+
+        <TextView
+            android:id="@+id/editHeader"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:text="Add a new vehicle"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make" />
+
+        <EditText
+            android:id="@+id/newvMake"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Model" />
+
+        <EditText
+            android:id="@+id/newvModel"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year" />
+
+        <EditText
+            android:id="@+id/newvYear"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price" />
+
+        <EditText
+            android:id="@+id/newvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="License Number" />
+
+        <EditText
+            android:id="@+id/newvLicenseNumber"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colour" />
+
+        <EditText
+            android:id="@+id/newvColour"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of doors" />
+
+        <EditText
+            android:id="@+id/newvNumberDoors"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transmission" />
+
+        <EditText
+            android:id="@+id/newvTransmission"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mileage" />
+
+        <EditText
+            android:id="@+id/newvMileage"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fuel Type" />
+
+        <EditText
+            android:id="@+id/newvFuelType"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engine Size" />
+
+        <EditText
+            android:id="@+id/newvEngineSize"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Body Style" />
+
+        <EditText
+            android:id="@+id/newvBodyStyle"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Condition" />
+
+        <EditText
+            android:id="@+id/newvCondition"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notes" />
+
+        <EditText
+            android:id="@+id/newvNotes"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/newVehicleBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add my vehicle!" />
+
+    </LinearLayout>
+
+
+</ScrollView>

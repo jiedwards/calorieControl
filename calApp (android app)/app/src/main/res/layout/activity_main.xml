@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/macroText"
+        android:layout_width="415dp"
+        android:layout_height="165dp"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:text="Macro split"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#40c601"
+        android:minHeight="?attr/actionBarSize"
+        tools:ignore="MissingConstraints" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="390dp"
+        android:layout_height="654dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="386dp"
+            android:layout_height="60dp"
+            android:text="User "
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.855" />
+
+        <TextView
+            android:id="@+id/testText"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:text="Register an account or Log in to recieve your personalised data."
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="411dp"
+            android:layout_height="323dp"
+            android:layout_marginTop="340dp"
+            android:baselineAlignBottom="false"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/cal2" />
+
+        <TextView
+            android:id="@+id/calorieText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageView"
+            android:layout_alignTop="@id/imageView"
+            android:layout_alignRight="@id/imageView"
+            android:layout_alignBottom="@id/imageView"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:paddingTop="69dp"
+            android:paddingRight="4dp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="50"
+            android:shadowDy="50"
+            android:shadowRadius="100"
+            android:text="2000"
+            android:textColor="#41a6f4"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
